@@ -1,0 +1,6 @@
+from textnode import TextNode, textType
+
+def main():
+    dummy = TextNode("This is some anchor text", "link", "https://www.boot.dev")
+    print(dummy)
+main()    
